@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Protest+Strike&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%; 
+}
+
+body {
+    height: 100vh;
+}
+
+/* Cabecalho */
+
+#cabecalho {
+    font-size: 2.5rem;
+    background-color: #e6c972;
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4.67rem;
+
+}
+
+#cabecalho h1 {
+    color: #000000;
+}
+
+/* Main-content */
+#conteudo-principal {
+    height: 86vh;
+    margin-left: 4.67rem;
+    background-color: #1a1a1a;
+    
+}
+
+.projetos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;   
+    padding-top: 20vh;
+}
+
+.projetos .projeto-content {
+    width: 22vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos .projeto-content img {
+    border-radius: 1rem;
+    width: 58rem;
+    box-shadow: 0.1rem 0.1rem 1rem 0.1rem #e6c972;
+}
+
+.projetos a:hover {
+    transform: scale(1.1);
+}
+
+/* navbar lateral */
+
+nav.menu-lateral {
+    width: 4.375rem;
+    height:100%;
+    background-color: rgb(16, 16, 16);
+    padding: 2.5rem 0 2.5rem 1%;
+    box-shadow: 0 0 0 0.31rem #e6c972;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow:hidden;
+    transition: width 0.3s;
+}    
+
+nav.menu-lateral:hover {
+    width: 18.75rem;
+    padding: 2.5rem 0 2.5rem 0.625rem;
+    height:100%;
+}
+
+ul {
+    height:100%;
+}
+
+ul .item-menu {
+    position: relative;
+    transition: background-color 0.4s
+}
+
+ul .item-menu a {
+    color:white;
+    text-decoration: none;
+    padding: 1.25rem 4%;
+    font-size: 1.25rem;
+    display:flex;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+ul .item-menu a .txt-link {
+    margin-left: 1.875rem;
+}
+
+ul .item-menu a .icon ion-icon {
+    font-size: 1.875rem;
+    margin-left:0.25rem;
+}
+
+ul .item-menu:hover {
+    background-color: #e6c972;
+}

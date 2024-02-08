@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Protest+Strike&display=swap');
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-size: 100%;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+}
+
+#conteudo-principal {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 12, 12);
+}
+
+#conteudo-principal .content {
+    background-color: rgb(15, 15, 15);
+    width: 50%;
+    height: 18rem;
+    color:#fff;
+    border-radius: 0.5rem;
+    position: relative;
+    box-shadow: 0.3rem 0.3rem 2rem #e6c972;
+}
+
+.content h1 {
+    font-size: 2rem;
+}
+
+.content ul {  
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+.fa-js {
+    color: #ffff00;
+    margin-right:0.3rem;
+}
+
+.fa-school {
+    color: #ffa500;
+    margin-right:0.3rem;
+}
+
+.fa-book-open {
+    color: #c5c5c5;
+    margin-right:0.3rem;
+}
+
+.fa-react {
+    margin-right: 0.3rem;
+    color:#028ebd;
+}
+
+.fa-rocket {
+    color: #ff6961;
+    margin-right:0.3rem;
+}
+
+.fa-phone {
+    color:#028ebd;
+    margin-right:0.3rem;
+}
+
+.fa-envelope {
+    color: #008000;
+    margin-right:0.3rem;
+}
+
+.fa-paperclip {
+    color:#c15c03;
+    margin-right: 0.3rem;
+}
+
+.content h1 {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.contact {
+    color: #fff;
+    position: relative;
+    width: 250px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.contact ul {
+    position: absolute;
+    top: 25%;
+    left:1%;
+}
+
+.contact ul li a {
+    color: #fff;
+}
+
+.contact ul li .mail:hover {
+    color:#008000;
+}
+
+.contact ul li .curriculo:hover {
+    color:#c15c03;
+}
+
+#rodape {
+    height: 10%;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6c972;
+}
+
+
+
+
+
+/* navbar lateral */
+
+nav.menu-lateral {
+    width: 4.375rem;
+    height:100%;
+    background-color: rgb(16, 16, 16);
+    padding: 2.5rem 0 2.5rem 1%;
+    box-shadow: 0 0 0 0.31rem #e6c972;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow:hidden;
+    transition: width 0.3s;
+}    
+
+nav.menu-lateral:hover {
+    width: 18.75rem;
+    padding: 2.5rem 0 2.5rem 0.625rem;
+    height:100%;
+}
+
+ul {
+    height:100%;
+}
+
+ul .item-menu {
+    position: relative;
+    transition: background-color 0.4s
+}
+
+ul .item-menu a {
+    color:white;
+    text-decoration: none;
+    padding: 1.25rem 4%;
+    font-size: 1.25rem;
+    display:flex;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+ul .item-menu a .txt-link {
+    margin-left: 1.875rem;
+}
+
+ul .item-menu a .icon ion-icon {
+    font-size: 1.875rem;
+    margin-left:0.25rem;
+}
+
+ul .item-menu:hover {
+    background-color: #e6c972;
+}
